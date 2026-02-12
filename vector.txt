@@ -1,0 +1,24 @@
+
+// Vectors vs Arrays:
+// - Dynamic size
+// - Automatic memory management
+// - Built-in functions size(), push_back(), pop_back()
+
+arr.front()
+arr.back()
+
+reverse(arr.begin(),arr.end());
+arr.insert(arr.begin()+2, 6);
+
+
+
+vector<int> a;
+
+when push_back(1);
+
+capacity = 2^0 & so on
+
+
+vector<int> arr(n,1);
+
+initialized with 1, upto n size
