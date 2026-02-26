@@ -1,0 +1,49 @@
+2d array : multiple of arrays stored, array of arrays
+
+init:
+
+int arr[][4]={
+    {1,2,3,4},
+    {2,5,6,8}};
+
+    int row=sizeof(arr)/sizeof(int)*sizeof(int); for row size
+
+    int col = sizeof(arr[0])/sizeof(int); for column size
+
+    int arr[2][3]; garbage as initial value
+
+    int arr[2][3]={1,2,3,4,5,6};
+
+    int arr[3][4]={}; zero as initital value
+
+    int n,m;
+    cin>>n>>m;
+    int arr[m][n];
+    for(int i = 0 ; i<n ; i++){
+        for(int j = 0 ; j<n ; j++){
+            cin>>arr[i][j];
+        }
+    }
+
+
+
+
+    1 2 3 4 
+    5 6 7 8 
+    9 10 11 12 
+    13 14 15 16 
+
+    print it like-> 
+
+    1 5 9 13 14 10 6 2 3 7 11 15 16 12 8 4 
+
+
+
+    1 2 3 4 
+    5 6 7 8 
+    9 10 11 12 
+    13 14 15 16 
+
+    print it like->
+
+    1 2 3 4 8 12 16 15 14 13 9 5 6 7 

@@ -1,0 +1,22 @@
+2d vector = vector of vectors;
+
+
+init 
+
+int n,m;
+vector<vector<int>> a(n,vector<int>(m));
+// Taking input
+for(int i = 0; i < n; i++){
+    for(int j = 0; j < m; j++){
+        cin >> a[i][j];
+    }
+}
+
+// Accessing elements
+cout << a[i][j];
+
+// Adding elements
+a[i].push_back(value);
+
+// Removing elements
+a[i].pop_back();
